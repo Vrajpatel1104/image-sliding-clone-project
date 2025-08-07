@@ -7,11 +7,11 @@ const slides = [
     keywords: {
       first: {
         label: 'Brand Identity',
-        images: ['/images/img-01.avif', '/images/img-02.avif', '/images/img-03.avif']
+        // images: ['/images/img-24.avif', '/images/img-25.avif', '/images/img-26.avif']
       },
       second: {
         label: 'Entertainment',
-        images: ['/images/img-10.avif', '/images/img-11.avif', '/images/img-12.avif']
+        // images: ['/images/img-21.avif', '/images/img-22.avif', '/images/img-23.avif']
       }
     }
   },
@@ -22,11 +22,11 @@ const slides = [
     keywords: {
       first: {
         label: 'Brand Identity',
-        images: ['/images/img-06.avif', '/images/img-07.avif', '/images/img-08.avif']
+        // images: ['/images/img-06.avif', '/images/img-07.avif', '/images/img-08.avif']
       },
       second: {
         label: 'Art & Culture',
-        images: ['/images/img-16.avif', '/images/img-17.avif', '/images/img-18.avif']
+        // images: ['/images/img-16.avif', '/images/img-17.avif', '/images/img-18.avif']
       }
     }
   },
@@ -37,11 +37,11 @@ const slides = [
     keywords: {
       first: {
         label: 'Brand Identity',
-        images: ['/images/img-04.avif', '/images/img-05.avif', '/images/img-08.avif']
+        // images: ['/images/img-04.avif', '/images/img-05.avif', '/images/img-08.avif']
       },
       second: {
         label: 'Art & Culture',
-        images: ['/images/img-16.avif', '/images/img-14.avif', '/images/img-15.avif']
+        // images: ['/images/img-16.avif', '/images/img-14.avif', '/images/img-15.avif']
       }
     }
   },
@@ -52,11 +52,11 @@ const slides = [
     keywords: {
       first: {
         label: 'Publication',
-        images: ['/images/img-04.avif', '/images/img-05.avif', '/images/img-08.avif']
+        // images: ['/images/img-04.avif', '/images/img-05.avif', '/images/img-08.avif']
       },
       second: {
         label: 'Entertainment',
-        images: ['/images/img-16.avif', '/images/img-14.avif', '/images/img-15.avif']
+        // images: ['/images/img-16.avif', '/images/img-14.avif', '/images/img-15.avif']
       }
     }
   },
@@ -67,11 +67,11 @@ const slides = [
     keywords: {
       first: {
         label: 'Brand Identity',
-        images: ['/images/img-04.avif', '/images/img-05.avif', '/images/img-08.avif']
+        // images: ['/images/img-04.avif', '/images/img-05.avif', '/images/img-08.avif']
       },
       second: {
         label: 'Finance',
-        images: ['/images/img-16.avif', '/images/img-14.avif', '/images/img-15.avif']
+        // images: ['/images/img-16.avif', '/images/img-14.avif', '/images/img-15.avif']
       }
     }
   },
@@ -82,11 +82,11 @@ const slides = [
     keywords: {
       first: {
         label: 'Brand Identity',
-        images: ['/images/img-04.avif', '/images/img-05.avif', '/images/img-08.avif']
+        // images: ['/images/img-04.avif', '/images/img-05.avif', '/images/img-08.avif']
       },
       second: {
         label: 'Art & Culture',
-        images: ['/images/img-16.avif', '/images/img-14.avif', '/images/img-15.avif']
+        // images: ['/images/img-16.avif', '/images/img-14.avif', '/images/img-15.avif']
       }
     }
   },
@@ -97,11 +97,11 @@ const slides = [
     keywords: {
       first: {
         label: 'Industrial/Product Design',
-        images: ['/images/img-04.avif', '/images/img-05.avif', '/images/img-08.avif']
+        // images: ['/images/img-04.avif', '/images/img-05.avif', '/images/img-08.avif']
       },
       second: {
         label: 'Custom Brands',
-        images: ['/images/img-16.avif', '/images/img-14.avif', '/images/img-15.avif']
+        // images: ['/images/img-16.avif', '/images/img-14.avif', '/images/img-15.avif']
       }
     }
   },
@@ -112,11 +112,11 @@ const slides = [
     keywords: {
       first: {
         label: 'Brand Identity',
-        images: ['/images/img-04.avif', '/images/img-05.avif', '/images/img-08.avif']
+        // images: ['/images/img-04.avif', '/images/img-05.avif', '/images/img-08.avif']
       },
       second: {
         label: 'Entertainment',
-        images: ['/images/img-16.avif', '/images/img-14.avif', '/images/img-15.avif']
+        // images: ['/images/img-16.avif', '/images/img-14.avif', '/images/img-15.avif']
       }
     }
   },
@@ -127,11 +127,11 @@ const slides = [
     keywords: {
       first: {
         label: 'Packaging',
-        images: ['/images/img-04.avif', '/images/img-05.avif', '/images/img-08.avif']
+        // images: ['/images/img-04.avif', '/images/img-05.avif', '/images/img-08.avif']
       },
       second: {
         label: 'Fashion & Beauty',
-        images: ['/images/img-16.avif', '/images/img-14.avif', '/images/img-15.avif']
+        // images: ['/images/img-16.avif', '/images/img-14.avif', '/images/img-15.avif']
       }
     }
   },
@@ -142,11 +142,11 @@ const slides = [
     keywords: {
       first: {
         label: 'Signage & Environmental Graphics',
-        images: ['/images/img-04.avif', '/images/img-05.avif', '/images/img-08.avif']
+        // images: ['/images/img-04.avif', '/images/img-05.avif', '/images/img-08.avif']
       },
       second: {
         label: 'Art & Culture',
-        images: ['/images/img-16.avif', '/images/img-14.avif', '/images/img-15.avif']
+        // images: ['/images/img-16.avif', '/images/img-14.avif', '/images/img-15.avif']
       }
     }
   },
@@ -157,11 +157,11 @@ const slides = [
     keywords: {
       first: {
         label: 'Brand Identity',
-        images: ['/images/img-04.avif', '/images/img-05.avif', '/images/img-08.avif']
+        // images: ['/images/img-04.avif', '/images/img-05.avif', '/images/img-08.avif']
       },
       second: {
         label: 'Technology',
-        images: ['/images/img-16.avif', '/images/img-14.avif', '/images/img-15.avif']
+        // images: ['/images/img-16.avif', '/images/img-14.avif', '/images/img-15.avif']
       }
     }
   },
@@ -172,11 +172,11 @@ const slides = [
     keywords: {
       first: {
         label: 'Brand Identity',
-        images: ['/images/img-04.avif', '/images/img-05.avif', '/images/img-08.avif']
+        // images: ['/images/img-04.avif', '/images/img-05.avif', '/images/img-08.avif']
       },
       second: {
         label: 'Finance',
-        images: ['/images/img-16.avif', '/images/img-14.avif', '/images/img-15.avif']
+        // images: ['/images/img-16.avif', '/images/img-14.avif', '/images/img-15.avif']
       }
     }
   },

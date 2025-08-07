@@ -5,27 +5,10 @@ import RollingText from './RollingText';
 import { motion, AnimatePresence } from 'framer-motion';
 import slides from '@/data/slides';
 import KeywordDrawer from './KeywordDrawer';
-import { uniqueFirstKeywords, uniqueSecondKeywords } from '@/utils/keywordUtils';
+import keywords from '@/data/keywords';
+// import { uniqueFirstKeywords, uniqueSecondKeywords } from '@/utils/keywordUtils';
 
 
-
-// const slides = [
-//   {
-//     image: '/images/slide-01.webp',
-//     designFocus: 'Signage & Environmental Graphics',
-//     targetIndustry: 'Arts & Culture',
-//   },
-//   {
-//     image: '/images/slide-02.webp',
-//     designFocus: 'Brand Identity',
-//     targetIndustry: 'Arts & Culture',
-//   },
-//   {
-//     image: '/images/slide-03.webp',
-//     designFocus: 'Brand Identity',
-//     targetIndustry: 'Museums & Events',
-//   },
-// ];
 
 export default function ImageSlider() {
 
@@ -36,7 +19,7 @@ export default function ImageSlider() {
 
   const openDrawer = (type) => {
     const drawerItems =
-      type === 'first' ? uniqueFirstKeywords : uniqueSecondKeywords;
+      type === 'first' ? keywords.first : keywords.second;
 
     setDrawerData({ type, drawerItems });
   };
@@ -80,7 +63,7 @@ export default function ImageSlider() {
       )}
       {/* Animated Text */}
       <div
-        className={`bg-white/80 backdrop-blur-md px-6 py-2 rounded text-center z-20 transition-all duration-500 ${drawerData ? 'mt-70 z-[99999]' : ''}`}
+        className={`bg-white/80 backdrop-blur-md px-6 py-2 rounded text-center z-20 transition-all duration-500 ${drawerData ? 'mt-75 z-[99999]' : ''}`}
         style={{
           position: 'absolute',
           top: '50%',
